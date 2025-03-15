@@ -1,0 +1,68 @@
+# Node Modules
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# Logs
+logs
+*.log
+logs/*.log
+debug.log
+error.log
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build Artifacts
+dist/
+build/
+.next/ # If using Next.js
+out/   # If using Next.js static export
+
+# Cache & Temp Files
+.cache/
+.tmp/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Database & Secrets
+*.sqlite
+*.sqlite3
+mongodb_data/
+dump.rdb
+
+# Coverage Reports
+coverage/
+*.lcov
+
+# OS-specific files
+*.swp
+*.swo
+*.bak
+*.orig
+
+# TypeScript & Babel
+*.tsbuildinfo
+.babelrc
+.eslintcache
+
+# VS Code Settings
+.vscode/
+.history/
+
+# Public Uploads (optional)
+public/uploads/
+uploads/
+static/
+
+# Docker
+docker-compose.override.yml
+.dockerignore
