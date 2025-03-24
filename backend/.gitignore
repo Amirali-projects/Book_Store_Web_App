@@ -11,7 +11,7 @@ logs
 logs/*.log
 debug.log
 error.log
-
+config.js
 # Environment Variables
 .env
 .env.local
